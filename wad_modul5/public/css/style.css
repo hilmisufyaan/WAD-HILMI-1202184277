@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: lightgray; */
+    background-color: rgb(236, 235, 235);
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 15px;
+    font-size: 1.1em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
